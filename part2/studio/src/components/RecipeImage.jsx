@@ -1,6 +1,8 @@
+import recipedata from "./recipe.json"
+
 function RecipeImage() {
-   return;
- }
+ return <div><img src={recipedata[0].recipeImage} className="recipeImage" /></div>
+}
  
  export default RecipeImage;
  
